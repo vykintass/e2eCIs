@@ -11,7 +11,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '21'
-          distribution: 'correto'
-          anchitecture: x64
+          distribution: 'temarin'
+          # anchitecture: x64
       - name: Build with Maven
         run: mvn -B package --file pom.xml
